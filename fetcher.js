@@ -1,6 +1,6 @@
 const request = require("request");
-const Buffter = require("buffer");
 const fs = require("fs");
+
 let args = process.argv.slice(2);
 const url = args[0];
 const path = args[1];
